@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	
-	<title>Crystal Collectors</title>
-	<link rel=stylesheet type="text/css"  href ='assets/css/style.css'>
-	
+
+    <title>Crystal Collectors</title>
+    <link rel=stylesheet type="text/css" href='assets/css/style.css'>
+
 </head>
+
 <body>
-	<div class="instructions">	<p>You will be given a random number at the start of the game.
-        <br>
-        <br>
-        There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
-        <br>
-        <br>
-        You win the game by matching your total score to the randomly generated number displayed.  You lose the game if your total exceeds the shown number.
-        <br>
-        <br>
-        The value of each crystal is hidden from you, but if you lick on it you can get a strong idea of the number.
-        <br>
-        <br>
-        Each time when the game starts, the game will change the values of the crstyals.
-        Good luck, have fun!
-    </p>
+    <div class="instructions">
+        <p>You will be given a random number at the start of the game.
+            <br>
+            <br> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+            score.
+            <br>
+            <br> You win the game by matching your total score to the randomly generated number displayed. You lose the game
+            if your total exceeds the shown number.
+            <br>
+            <br> The value of each crystal is hidden from you, but if you lick on it you can get a strong idea of the number.
+            <br>
+            <br> Each time when the game starts, the game will change the values of the crstyals. Good luck, have fun!
+        </p>
     </div>
 
-<label id='targetScore'>
-	junk
-</label>	
+    <label id='targetScore'>
+        junk
+    </label>
 
-<div >
-	<img id='ruby' onclick='gemClick(0)' class='imgSize' src='assets/images/ruby.png'></img>
-	<img id='saphire' onclick='saphireScore' class='imgSize' src='assets/images/saphire.jpg'></img>
-	<img id='topaz' onclick='topazScore' class='imgSize' src='assets/images/topaz.jpg'></img>
-	<img id='emrald' onclick='emraldScore' class='imgSize' src='assets/images/emrald.jpg'></img>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src='assets/javascript/game.js'></script>
-</div>
+    <div>
+        <button ><img id='ruby' onclick='gemClick(0)' class='imgSize' src='assets/images/ruby.png'></img></button>
+        <button><img id='saphire' onclick='saphireScore' class='imgSize' src='assets/images/saphire.jpg'></img></button>
+        <button><img id='topaz' onclick='topazScore' class='imgSize' src='assets/images/topaz.jpg'></img></button>
+        <button><img id='emrald' onclick='emraldScore' class='imgSize' src='assets/images/emrald.jpg'></img></button>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src='assets/javascript/game.js'></script>
+    </div>
 </body>
+
 </html>
