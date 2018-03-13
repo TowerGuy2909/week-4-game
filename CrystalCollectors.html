@@ -23,16 +23,29 @@
             <br> Each time when the game starts, the game will change the values of the crstyals. Good luck, have fun!
         </p>
     </div>
-
-    <label id='targetScore'>
-        junk
-    </label>
-
     <div>
-        <button ><img id='ruby' onclick='gemClick(0)' class='imgSize' src='assets/images/ruby.png'></img></button>
-        <button><img id='saphire' onclick='saphireScore' class='imgSize' src='assets/images/saphire.jpg'></img></button>
-        <button><img id='topaz' onclick='topazScore' class='imgSize' src='assets/images/topaz.jpg'></img></button>
-        <button><img id='emrald' onclick='emraldScore' class='imgSize' src='assets/images/emrald.jpg'></img></button>
+        <label id='targetScore'name="target score" >
+            junk
+        </label>
+    </div>
+
+    <div class="button-containter">
+        <button id="btn1">
+            <img id='ruby'  class='imgSize' src='assets/images/ruby.png'></img>
+        </button>
+
+        <button onclick='saphireScore()'>
+            <img id='saphire'  class='imgSize' src='assets/images/saphire.jpg'></img>
+        </button>
+
+        <button onclick='topazScore()'>
+            <img id='topaz'  class='imgSize' src='assets/images/topaz.jpg'></img>
+        </button>
+
+        <button onclick='emraldScore()'>
+            <img id='emrald'  class='imgSize' src='assets/images/emrald.jpg'></img>
+        </button>
+
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src='assets/javascript/game.js'></script>
     </div>
